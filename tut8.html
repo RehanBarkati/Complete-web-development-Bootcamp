@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <!-->Checked to auto check-->
+    <!-->label help us to fill the entries just by clicking on type like name,roll etc-->
+</head>
+<body>
+       <h2>This is HTML form tutorial</h2>
+       <form action="backend.php">
+           <label for="name"><strong>Name</strong></label>  
+         <div>
+             <input type="text" name="myName" id="name">
+         </div>
+         <br>
+         <div>
+            <label for="roll"><strong>Roll</strong></label>
+              <input type="text" name="myRoll" id="roll">
+         </div>
+         <br>
+         <div>
+            <label for="email"><strong>Email</strong></label>
+             <input type="email" name="myEmail" id="email"> 
+         </div>
+         <br>
+         <div>
+            <label for="Bonus"><strong>Bonus</strong></label>
+              <input type="number" name="myBonus" id="Bonus">
+         </div>
+         <br>
+         <div>
+            <label for="date"><strong>Date</strong></label>
+             <input type="date" name="todaysdate" id="date" >
+         </div>
+         <br>
+         <div>
+            <em>Are you eligible?</em><input type="checkbox" name="myEligibility" checked> 
+         </div>
+         <br>
+         <diV>
+           <strong>Gender:</strong> Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender">
+         </diV>
+         <br>
+         <div>
+             <label for="car"><strong>Car</strong></label>
+              <select name="mycar" id="car">
+                  <option value="Bugati" selected>Bugati</option>
+                  <option value="Indica">Indica</option>
+              </select> 
+         </div>
+         <br>
+         <div>
+            Write about yourself:<br> <textarea name="mytext"  cols="20" rows="10"></textarea>
+         </div>
+         <br>
+        <div>
+            <input type="submit" value="Submit Now">  <input type="reset" value="Reset Now">
+        </div>
+       </form>
+</body>
+</html>
