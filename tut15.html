@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+       /* #redElement{
+           color:red;
+       }  para with id redElement will be red */
+       /* .redElement{
+           color:red;
+       } */
+
+       /* id selector */
+       p{
+           border:2px solid red;
+       }
+       #firstpara{
+           color:yellowgreen;
+       }
+       .redElement{
+           color:green;
+       }
+       /* class selector */
+       .bgBlue{
+          background-color:violet;
+       }
+       /* combined grouping selector */
+      footer , span{
+        background-color: violet;
+    }
+    </style>
+</head>
+<body>
+    <h3>CSS Selector</h3>
+    <p id="firstpara">This is a simple paragraph to demonstrate selector</p>
+    <p id="secpara" class="redElement bgBlue">This is another simple paragraph to demonstrate selector</p>
+    <div>
+        <p>This is yet  another simple paragraph inside div to demonstrate selector</p>
+        <span>This is span</span>
+    </div>
+    
+    <footer>This is footer</footer>
+</body>
+</html>
